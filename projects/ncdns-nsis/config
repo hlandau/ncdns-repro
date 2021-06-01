@@ -7,7 +7,7 @@ gpg_keyring: namecoin.gpg
 filename: 'ncdns-[% c("version") %]-[% c("arch") %]-install-[% c("var/build_id") %].exe'
 
 var:
-  bind_version: '9.17.11'
+  bind_version: '9.17.13'
   consensusj_namecoin_version: '0.3.2.1'
   dnssec_trigger_version: '0.17'
   namecoin_core_version: '0.21.0.1'

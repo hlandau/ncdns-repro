@@ -1,8 +1,8 @@
 # vim: filetype=yaml sw=2
 filename: 'Electrum-NMC-[% c("version") %]-[% c("var/build_id") %].tar.gz'
-version: 3.3.8
+version: 3.3.11
 git_url: https://github.com/namecoin/electrum-nmc.git
-git_hash: 6cd135c0061dfa96ef92bbec7dc34b8cd0735ce3
+git_hash: dc366a9cfedac24c0fd12d493f25ed058cf38271
 # TODO: This Git repo uses GPG sigs; we should switch from commit hash to GPG verification.
 var:
   container:
